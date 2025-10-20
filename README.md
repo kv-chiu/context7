@@ -474,6 +474,9 @@ args = ["-y", "@upstash/context7-mcp", "--api-key", "YOUR_API_KEY"]
 command = "npx"
 ```
 
+<details>
+<summary><b>Troubleshooting (Windows)</b></summary>
+
 ⚠️ Windows Notes
 
 On Windows, some users may encounter request timed out errors with the default configuration.
@@ -558,6 +561,11 @@ Troubleshooting
 
 This ensures Codex CLI works reliably on Windows.
 
+</details>
+
+<details>
+<summary><b>Troubleshooting (macOS)</b></summary>
+
 ⚠️ MacOS Notes
 
 On MacOS, some users may encounter the same request timed out errors like Windows,
@@ -575,6 +583,8 @@ args = ["/Users/yourname/.nvm/versions/node/v22.14.0/lib/node_modules/@upstash/c
 ```
 
 This ensures Codex CLI works reliably on MacOS.
+
+</details>
 
 </details>
 
