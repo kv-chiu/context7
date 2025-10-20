@@ -505,7 +505,7 @@ startup_timeout_ms = 20_000
 >   ]
 >   ```
 >
-> Notes: Replace `yourname` with your OS username. Explicitly setting `APPDATA` and `SystemRoot` is safe and backward‑compatible across MCP clients.
+> Notes: Replace `yourname` with your OS username. Explicitly setting `APPDATA` and `SystemRoot` is essential because these are required by `npx` on Windows but not set by OpenAI Codex mcp clients by default.
 
 </details>
 
