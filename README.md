@@ -496,7 +496,7 @@ startup_timeout_ms = 20_000
 >
 >   ```toml
 >   [mcp_servers.context7]
->   command = "/Users/yourname/.nvm/versions/node/v22.14.0/bin/node"  # Node.js full path
+>   command = "/Users/yourname/.nvm/versions/node/v22.14.0/bin/node"
 >   args = ["/Users/yourname/.nvm/versions/node/v22.14.0/lib/node_modules/@upstash/context7-mcp/dist/index.js",
 >     "--transport",
 >     "stdio",
